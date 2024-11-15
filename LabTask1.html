@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Website</title>
+    <style>
+        /* Reset some default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+        }
+        /* Header */
+        .header {
+            background-color: #ff6600;
+            padding: 10px 20px;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .nav {
+            display: flex;
+            gap: 20px;
+        }
+        .nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        /* Banner */
+        .banner {
+            background-color: #00aabb;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+            position: relative;
+        }
+        .banner h2 {
+            font-size: 30px;
+            margin: 5px 0;
+        }
+        .banner p {
+            font-size: 18px;
+            max-width: 600px;
+            margin: 0 auto 5px auto;
+        }
+        .banner .banner-image {
+            max-width: 20%;
+            height: auto;
+            border-radius: 10px; /* Optional: gives the image rounded corners */
+            margin: 5px auto;
+        }
+        .banner .arrows {
+            position: absolute;
+            top: 40%;
+            transform: translateY(-40%);
+            font-size: 20px;
+            cursor: pointer;
+            color: white;
+        }
+        .banner .arrow-left {
+            left: 20px;
+        }
+        .banner .arrow-right {
+            right: 20px;
+        }
+        /* Services Section */
+        .services {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 40px 20px;
+            background-color: #f5f5f5;
+        }
+        .service-box {
+            width: 200px;
+            background-color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 5px;
+        }
+        .service-box img {
+            width: 50px;
+            margin-bottom: 15px;
+        }
+        .service-box h3 {
+            font-size: 18px;
+            color: #ff6600;
+            margin-bottom: 10px;
+        }
+        .service-box p {
+            font-size: 14px;
+            color: #555;
+        }
+        .service-box a {
+            display: inline-block;
+            margin-top: 10px;
+            color: white;
+            background-color: #00aabb;
+            padding: 5px 15px;
+            text-decoration: none;
+            border-radius: 3px;
+        }
+        /* Footer */
+        .footer {
+            background-color: #ff6600;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .footer .social-icons {
+            margin-top: 10px;
+        }
+        .footer .social-icons img {
+            width: 20px;
+            margin: 0 5px;
+        }
+        .footer p {
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="header">
+        <div class="logo">YOUR LOGO</div>
+        <nav class="nav">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Banner Section -->
+    <section class="banner">
+        <div class="arrows arrow-left">&#9664;</div>
+        <h2>Main Heading Example</h2>
+        <p>"Streamline your business operations with our all-in-one software solution. Whether you're managing projects, boosting productivity, or optimizing workflows, our platform makes it easy. Get started in minutes and see the difference! Sign up for a free trial today.".</p>
+        <!-- Add image here -->
+        <img src="https://scontent.fdac80-1.fna.fbcdn.net/v/t1.15752-9/462568164_1318466069516158_1274622283579940096_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeGGvZgHWEs_JD8HcMw-_5Eo_thx5PfjFWX-2HHk9-MVZehXE0GCnxYcRAU1BnXbNzsLNPkog_rjhUnnUhogcZOS&_nc_ohc=stmRWT1Ro9IQ7kNvgFEueZW&_nc_zt=23&_nc_ht=scontent.fdac80-1.fna&oh=03_Q7cD1QFhaFBnZcEOh0k27GvjjIR8uVcQxDSiJc4878GqMmBsRA&oe=675EB5F7" alt="Banner Image" class="banner-image">
+        <div class="arrows arrow-right">&#9654;</div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="service-box">
+            <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/462569861_1044387987373607_7695526489914650709_n.jpg?stp=dst-jpg_s480x480&_nc_cat=110&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeG1sKH2LxR9RPgibCm1OYd2Y66QByxQNk9jrpAHLFA2T_kElLfief06faswdQPYnluC39qA7OY4Q9qFQTNXJl7S&_nc_ohc=JJZ1YdBRYMoQ7kNvgHnafa6&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QG7vT7Vq6hiwmgKQptZQERJLqm4aImJyxijAK7yREA7cQ&oe=675EAE2B" alt="Icon 1">
+            <h3>Title 1</h3>
+            <p>Let this image transport you to another world. A world of beauty, emotion, and endless possibilities and many more.</p>
+            <a href="#">Read more</a>
+        </div>
+        <div class="service-box">
+            <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/462637795_2038438689951017_4077618711238099726_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeFePkrDSpl0O-tWN6F0Vs3BNdgIOntahIk12Ag6e1qEiR96I9GMcBIJwtIFL4y7JLYdacVri-OAAKbq7Ul4-pwT&_nc_ohc=IGbcZrWhAfwQ7kNvgF7gN-K&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QFowMb4Iv2_8x5xmY71vJmjOkjI3DeGoN2QUuMFLHr8iQ&oe=675EAAA9" alt="Icon 2">
+            <h3>Title 2</h3>
+            <p>Your ultimate travel companion. Find your way, explore new places,avoid traffic with real-time updates .</p>
+            <a href="#">Read more</a>
+        </div>
+        <div class="service-box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2sR9dQ7G21FtQkuqYMyT-BeCrw6Z8u7vL26koSJw2D36ETf3DdpGPpRlb4GImN4qJdFU&usqp=CAU" alt="Icon 3">
+            <h3>Title 3</h3>
+            <p>Unleash the power of the cloud. Store, access, and share your files effortlessly, anytime, anywhere.</p>
+            <a href="#">Read more</a>
+        </div>
+        <div class="service-box">
+            <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/462585758_488216146882469_865454908675649587_n.jpg?stp=dst-jpg_s480x480&_nc_cat=105&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeFJDXTW9fdmz8o2P_mr0Oh0pGAEteMCVOOkYAS14wJU45mJ4V3Sl3cfbvfH_g8CmfKnZHxt0UuZWLiPt3v_Kdna&_nc_ohc=hMc_ZIz66MoQ7kNvgFacQVK&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QGCNXE3F68CK4A-mXHgHSCN1VujJpWoiYcXrp1Xo_TM2g&oe=675EB37A" alt="Icon 4">
+            <h3>Title 4</h3>
+            <p>Elevate your lifestyle. This exquisite flat offers the perfect blend of modern luxury and comfort.</p>
+            <a href="#">Read more</a>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>&copy; 2024 Your Company. All rights reserved.</p>
+        <div class="social-icons">
+            <img src="https://scontent.fdac80-1.fna.fbcdn.net/v/t39.30808-6/380700650_10162533193146729_2379134611963304810_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeH4c1iD24jUDHBlNcV6Ww_jtjWzO19RVKS2NbM7X1FUpHOqqKVM1yU0xaS5-DKYsuq0jMX8Lj0QenOr-za_rXEU&_nc_ohc=loPMHlucX18Q7kNvgHa126M&_nc_zt=23&_nc_ht=scontent.fdac80-1.fna&_nc_gid=AZJUS4s9rDrLD_AA2EEB2Zv&oh=00_AYDVgcgkKSucaTa5TxroWb04A6SxygWHW1PYzPQ1zsF1xg&oe=673D087E" alt="Facebook">
+            <img src="https://upload.wikimedia.org/wikipedia/sco/thumb/9/9f/Twitter_bird_logo_2012.svg/330px-Twitter_bird_logo_2012.svg.png" alt="Twitter">
+            <img src="https://scontent.fdac80-1.fna.fbcdn.net/v/t39.30808-6/277519684_10158675188522823_7436488509713286219_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeE3pmamMdDZg0_6OUf83-eAXJJvMd2flLRckm8x3Z-UtA3zo9oMpgldNedjmjZ5IqCPhtdP53LO2VHjpjOaX2Qr&_nc_ohc=A2oJB0JBwnoQ7kNvgHx2b6I&_nc_zt=23&_nc_ht=scontent.fdac80-1.fna&_nc_gid=Ab7Ws5gBsi1yokV33JJ73u7&oh=00_AYBEne63trAlHCmSe0rLKl1LNjb06VNZcIvvAC9GpxeYUA&oe=673CF9AB" alt="LinkedIn">
+        </div>
+        <p>+8801726725791 | info@yourcompany.com</p>
+    </footer>
+
+</body>
+</html>
